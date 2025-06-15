@@ -39,4 +39,5 @@ Install nasm if not installed.
 
 ```bash
 nasm -f elf64 args.asm -o args.o && ld args.o -o args
+./args
 ```
